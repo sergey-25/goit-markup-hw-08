@@ -40,6 +40,7 @@
 .menu {
   padding-top: 16px;
   padding-left: 15px;
+  padding-right: 15px;
   position: absolute;
   left: 240px;
   top: 225px;
@@ -77,13 +78,14 @@
 }
 
 .nav-all {
-  display: flex;
+  /*display: flex;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
+  text-align: center;
 }
 .navigation {
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .logo {
   display: flex;
@@ -104,12 +106,13 @@
 }
 .par::after {
   content: '';
-  width: 100%;
+  width: 11%;
   height: 4px;
   display: block;
   border-radius: 2px;
   background-color: $color-accent;
   margin-top: 8px;
+  margin-left: 200px;
 }
 
 .navigation-link {

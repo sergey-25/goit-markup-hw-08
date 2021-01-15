@@ -15,56 +15,76 @@
     <header class="header-portfolio">
     
         <div class="container-top">
-            <div class="logo-top"> <a class="logo" href="./index.html">
+            <div class="logo-top"> <a class="logo" href="#">
                     <img class="logo-img" src="./images/logo.svg" width="145" height="32" class="logo-up" alt="WebStudio" />
-                </a> </div>
-            <div class="nav-all">
-                <nav class="navigation">
-                    <ul class="navigation-list">
-                        <li class="navigation-list-item">
-                            <a class="navigation-link" href="./index.html">
-                                 Студия</p>
-                            </a>
-                        </li>
-                        <li class="navigation-list-item">
-                            <a class="navigation-link" href="./portfolio.html">
-                                <p class="par"> Портфолио</p>
-                            </a>
-                        </li>
-                        <li class="navigation-list-item">
-                            <a class="navigation-link" href="">
-                                <p class="par-contacts">Контакты</p>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                </a>
             </div>
-            <address class="address-top">
-                <div class="mail">
-                    <a class="header-mail" href="mailto:info@devstudio.com">
-                        <div class="icon-m">
-                            <svg class="mail-icon">
-                                <use href="./images/top-sprite.svg#icon-envelope-1" width="16" height="12"></use>
-                            </svg></div>info@devstudio.com
-    
-                    </a>
+            <svg class="nav-icon" width="20" height="20" data-menu-open>
+                <use href="./images/header-modal.svg#icon-menu_40px"></use>
+            </svg>
+        
+            <div class="backdrop-menu is-hidden" data-menu>
+                <div class="menu">
+                    <div class="logo-top"> <a class="logo" href="#">
+                            <img class="logo-img" src="./images/logo.svg" width="145" height="32" class="logo-up"
+                                alt="WebStudio" />
+                        </a>
+                    </div>
+                    <div class="nav-all">
+                        <nav class="navigation">
+                            <ul class="navigation-list">
+                                <li class="navigation-list-item">
+                                    <a class="navigation-link " href="./index.html">
+                                        <p class="par"> Студия</p>
+                                    </a>
+                                </li>
+                                <li class="navigation-list-item">
+                                    <a class="navigation-link" href="./portfolio.html"> Портфолио</p></a>
+                                </li>
+                                <li class="navigation-list-item">
+                                    <a class="navigation-link" href="">
+                                        <p class="par-contacts">Контакты</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <address class="address-top">
+                        <div class="mail">
+                            <a class="header-mail" href="mailto:info@devstudio.com">
+                                <div class="icon-m">
+                                    <svg class="mail-icon">
+                                        <use href="./images/top-sprite.svg#icon-envelope-1" width="16" height="12"></use>
+                                    </svg>
+                                </div>info@devstudio.com
+        
+                            </a>
+                        </div>
+                        <div class="tel">
+                            <a class="header-tel" href="tel:+38 096 111 11 11">
+        
+                                <div class="icont"> <svg class="mail-icon-tel">
+                                        <use href="./images/top-sprite.svg#icon-smartphone-1-1"></use>
+                                    </svg></div>
+                                +38 096 111 11 11
+                            </a>
+                        </div>
+                    </address>
+                    <button type="button" class="menu-close-button" data-menu-close>
+        
+                        <svg class="menu-icon-close">
+                            <use href="./images/header-modal.svg#icon-close_40px-1"></use>
+                        </svg>
+                    </button>
                 </div>
-                <div class="tel">
-                    <a class="header-tel" href="tel:+38 096 111 11 11">
-    
-                        <div class="icont"> <svg class="mail-icon-tel">
-                                <use href="./images/top-sprite.svg#icon-smartphone-1-1"></use>
-                            </svg></div>
-                        +38 096 111 11 11
-                    </a></div>
-            </address>
+        
+            </div>
         </div>
-    
-    
+        </div>
     </header>
     <main>
         <div class="container"> 
-        <section class="menu">
+        <section class="menu-portfolio">
             <nav class="menu-nav">
                 
                 <ul class="menu-nav-list">
@@ -260,6 +280,7 @@
                 </form>
         </div>
     </footer>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
