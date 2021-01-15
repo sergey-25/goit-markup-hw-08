@@ -1,0 +1,48 @@
+/* Footer - form*/
+
+.footer-box {
+  flex-direction: row;
+}
+.email-input {
+  border-radius: 4px;
+  width: 450px;
+
+  background-color: $color-back;
+  padding-left: 16px;
+  padding: 15px;
+  border: 1px solid #757575;
+  margin-bottom: 20px;
+}
+
+.button-submit-footer {
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-accent;
+  color: $color-general-second;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 28px;
+  text-transform: none;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.button-submit-icon {
+  display: inline;
+  width: 24px;
+  height: 24px;
+  fill: $color-general-second;
+  margin-left: 10px;
+}

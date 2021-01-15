@@ -1,0 +1,45 @@
+/*works-section*/
+
+.works {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 66px;
+}
+.works-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: $color-general;
+}
+
+.works-list {
+  margin-top: 30px;
+  list-style: none;
+}
+.works-item {
+  margin: auto;
+  position: relative;
+  width: 450px;
+}
+.works-content {
+  position: absolute;
+  bottom: 0;
+
+  width: px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  padding: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $color-general-second;
+  text-transform: uppercase;
+}

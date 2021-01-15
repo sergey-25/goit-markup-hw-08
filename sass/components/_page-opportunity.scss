@@ -1,0 +1,60 @@
+/*opportunity-section*/
+
+.opportunity {
+  padding-top: 60px;
+}
+
+.opportunity-list {
+  list-style: none;
+  margin: auto;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 354px;
+  }
+}
+.opportunity-list-item {
+}
+.opportunity-list-item::before {
+  content: '';
+  height: 100px;
+  display: block;
+  border: 1px solid #f5f4fa;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+  background-position: center;
+}
+.opportunity-list-item:nth-child(1)::before {
+  background-image: url('../images/antenna\ 1.svg');
+}
+.opportunity-list-item:nth-child(2)::before {
+  background-image: url('../images/clock\ 1.svg');
+}
+.opportunity-list-item:nth-child(3)::before {
+  background-image: url('../images/diagram\ 1.svg');
+}
+.opportunity-list-item:nth-child(4)::before {
+  background-image: url('../images/astronaut\ 1.svg');
+}
+.opportunity-title {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $color-general;
+}
+.opportunity-paragraph {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: $color-paragraph;
+}
