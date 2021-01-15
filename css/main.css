@@ -1111,7 +1111,7 @@ img {
 .modal {
   position: absolute;
   left: 240px;
-  top: 400px;
+  top: 380px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 480px;
