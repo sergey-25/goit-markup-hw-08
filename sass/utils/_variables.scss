@@ -20,64 +20,93 @@ img {
 }
 
 .container {
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  @media screen and (min-width: 480px) {
+}
+@media screen and(min-width: 480px) {
+  .container {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+@media screen and(min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+@media screen and(min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+.works-container {
+  display: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 15px;
+  @media screen and(min-width: 480px) {
     width: 480px;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and(min-width: 768px) {
     width: 768px;
   }
-
-  @media screen and (min-width: 1140px) {
-    width: 1140px;
+  @media screen and(min-width: 1200px) {
+    width: 1200px;
+    display: block;
   }
 }
+
 .container-top {
   position: relative;
   background-color: $color-general-second;
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;
+  margin: auto;
   padding-left: 15px;
   padding-right: 15px;
-
-  @media screen and (min-width: 480px) {
+  border: 1px solid red;
+}
+@media screen and(min-width: 480px) {
+  .container-top {
     width: 480px;
   }
-
-  @media screen and (min-width: 768px) {
+}
+@media screen and(min-width: 768px) {
+  .container-top {
     width: 768px;
-  }
-
-  @media screen and (min-width: 1140px) {
-    width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
   }
 }
-
+@media screen and(min-width: 1200px) {
+  .container-top {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
 .container-second {
   background-color: $color-back;
   margin-right: auto;
   margin-left: auto;
   padding: 0px 15px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  @media screen and (min-width: 480px) {
-    width: 480px;
+  @media screen and(min-width: 480px) {
+    max-width: 480px;
   }
 
-  @media screen and (min-width: 768px) {
-    width: 768px;
+  @media screen and(min-width: 768px) {
+    max-width: 768px;
   }
-
-  @media screen and (min-width: 1140px) {
-    width: 1140px;
+  @media screen and(min-width: 1200px) {
+    max-width: 1200px;
   }
 }

@@ -7,16 +7,45 @@
 .opportunity-list {
   list-style: none;
   margin: auto;
+  display: block;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    width: 354px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
   }
 }
+
 .opportunity-list-item {
+  margin-bottom: 10px;
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+    margin-right: 30px;
+    flex-basis: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+    flex-basis: 270px;
+  }
+}
+.opportunity-list-item:nth-child(2) {
+  @media screen and (min-width: 768px) {
+    margin-right: 0px;
+  }
+}
+.opportunity-list-item:nth-child(4) {
+  @media screen and (min-width: 768px) {
+    margin-right: 0px;
+  }
 }
 .opportunity-list-item::before {
   content: '';
+
   height: 100px;
   display: block;
   border: 1px solid #f5f4fa;
@@ -40,7 +69,7 @@
 }
 .opportunity-title {
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
   font-family: Roboto;
   font-weight: bold;
   font-size: 14px;

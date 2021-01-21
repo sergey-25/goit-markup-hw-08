@@ -2,16 +2,27 @@
 
 .footer-box {
   flex-direction: row;
+
+  @media screen and(min-width: 768px) {
+    margin-right: auto;
+    margin-left: auto;
+    width: 450px;
+  }
+  @media screen and(min-width: 1200px) {
+  }
 }
 .email-input {
   border-radius: 4px;
-  width: 450px;
-
+  width: 100%;
   background-color: $color-back;
   padding-left: 16px;
   padding: 15px;
   border: 1px solid #757575;
   margin-bottom: 20px;
+  @media screen and(min-width: 768px) {
+  }
+  @media screen and(min-width: 1200px) {
+  }
 }
 
 .button-submit-footer {

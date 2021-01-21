@@ -1,6 +1,7 @@
 /*works-section*/
 
 .works {
+  @include centeredFlex(flex);
   text-align: center;
   padding-top: 100px;
   padding-bottom: 66px;
@@ -20,6 +21,7 @@
 .works-list {
   margin-top: 30px;
   list-style: none;
+  @include centeredFlex(flex);
 }
 .works-item {
   margin: auto;
@@ -30,7 +32,7 @@
   position: absolute;
   bottom: 0;
 
-  width: px;
+  width: 370px;
   height: 70px;
   justify-content: center;
   align-items: center;

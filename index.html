@@ -20,17 +20,57 @@
     <header class="header">
 
         <div class="container-top">
-            <div class="logo-top"> <a class="logo" href="#">
-                    <img class="logo-img" src="./images/logo.svg" width="145" height="32" class="logo-up"
-                        alt="WebStudio" />
-                </a> 
-            </div>
-            <svg class="nav-icon" width="20" height="20" data-menu-open>
+           <!-- <div class="logo-top"> 
+                    <a class="logo-img" href="#"> <span class="color-letter">Web</span>
+                        <span class="second-letter">Studio</span></a>
+            </div>-->
+            <div class="nav-studio">
+                <nav class="navigation">
+                    <a class="logo-img" href="#"> <span class="color-letter">Web</span>
+                        <span class="second-letter">Studio</span></a>
+                <ul class="navigation-list">
+                    <li class="navigation-list-item">
+                        <a class="navigation-link par" href="">
+                             Студия
+                        </a>
+                    </li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-link " href="./portfolio.html"> Портфолио</a>
+                    </li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-link" href="">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav></div><address class="address-top">
+                <div class="mail">
+                    <a class="header-mail" href="mailto:info@devstudio.com">
+                        <div class="icon-m">
+                            <svg class="mail-icon">
+                                <use href="./images/top-sprite.svg#icon-envelope-1" width="16" height="12"></use>
+                            </svg>
+                        </div>info@devstudio.com
+            
+                    </a>
+                </div>
+                <div class="tel">
+                    <a class="header-tel" href="tel:+38 096 111 11 11">
+            
+                        <div class="icont"> <svg class="mail-icon-tel">
+                                <use href="./images/top-sprite.svg#icon-smartphone-1-1"></use>
+                            </svg></div>
+                        +38 096 111 11 11
+                    </a>
+                </div>
+            </address>
+            
+           <svg class="nav-icon" width="20" height="20" data-menu-open>
                 <use href="./images/header-modal.svg#icon-menu_40px"></use>
             </svg>
 
-            <div class="backdrop-menu is-hidden" data-menu>
-                <div class="menu">
+            
+             <!--  <div class="menu is-hidden" data-menu>
             <div class="logo-top"> <a class="logo" href="#">
                     <img class="logo-img" src="./images/logo.svg" width="145" height="32" class="logo-up" alt="WebStudio" />
                 </a>
@@ -39,16 +79,16 @@
                         <nav class="navigation">
                             <ul class="navigation-list">
                                 <li class="navigation-list-item">
-                                    <a class="navigation-link " href="">
-                                        <p class="par"> Студия</p>
+                                    <a class="navigation-link par" href="">
+                                         Студия
                                     </a>
                                 </li>
                                 <li class="navigation-list-item">
-                                    <a class="navigation-link" href="./portfolio.html"> Портфолио</p></a>
+                                    <a class="navigation-link" href="./portfolio.html"> Портфолио</a>
                                 </li>
                                 <li class="navigation-list-item">
                                     <a class="navigation-link" href="">
-                                        <p class="par-contacts">Контакты</p>
+                                        <a class="par-contacts">Контакты
                                     </a>
                                 </li>
                             </ul>
@@ -81,22 +121,22 @@
                             <use href="./images/header-modal.svg#icon-close_40px-1"></use>
                         </svg>
                     </button>
-                    </div>
+                    </div>--> 
             
-                        </div>
+                        
                 </div>
-            </div>
+            
              </header>
     <main>
 
-        <section class="hero">
+       <section class="hero">
             <div class="hero-content">
                 <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
                 <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
 
-        <section class="opportunity">
+          <section class="opportunity">
             <div class="container">
                 <ul class="opportunity-list">
                     <li class="opportunity-list-item">
@@ -133,8 +173,8 @@
 
         </section>
 
-        <section class="works">
-            <div class="container">
+     <section class="works">
+            <div class="works-container">
                 <h2 class="works-title">Чем мы занимаемся</h2>
                 <ul class="works-list">
 
@@ -159,7 +199,7 @@
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-list">
                     <li class="team-list-item">
-                        <img class="team-img" src="./images/ihor.jpg" width="270" height="260" alt="">
+                <!-- <img class="team-img" src="./images/ihor.jpg" width="270" height="260" alt="">-->
                         <h4 class="team-employee">Игорь Демьяненко</h4>
                         <p class="team-profession">Product Designer</p>
 
@@ -197,7 +237,7 @@
 
                     </li>
                     <li class="team-list-item">
-                        <img class="team-img" src="./images/olga.jpg" width="270" height="260" alt="">
+                <!--      <img class="team-img" src="./images/olga.jpg" width="270" height="260" alt="">-->
                         <h4 class="team-employee">Ольга Репина</h4>
                         <p class="team-profession">Frontend Developer</p>
 
@@ -236,7 +276,7 @@
 
                     </li>
                     <li class="team-list-item">
-                        <img class="team-img" src="./images/nick.jpg" width="270" height="260" alt="">
+                    <!-- <img class="team-img" src="./images/nick.jpg" width="270" height="260" alt="">-->
                         <h4 class="team-employee">Николай Тарасов</h4>
                         <p class="team-profession">Marketing</p>
 
@@ -274,7 +314,7 @@
 
                     </li>
                     <li class="team-list-item">
-                        <img class="team-img" src="./images/michel.jpg" width="270" height="260" alt="">
+                     <!--   <img class="team-img" src="./images/michel.jpg" width="270" height="260" alt="">-->
                         <h4 class="team-employee">Михаил Ермаков</h4>
                         <p class="team-profession">UI Designer</p>
                         <ul class="team-sosial-list">
@@ -363,11 +403,12 @@
             </div>
         </section>
     </main>
-    <footer class="footer footter">
+   <footer class="footer footter">
         <div class="container-second">
+            <div class="footer-thumb">
             <div class="footer-info">
                 <a class="footer-img" href="#"> <span class="color-letter">Web</span>
-                    <span class="normal-letter"></span>Studio</span></a>
+                    <span class="normal-letter">Studio</span></a>
                 <address>
                     <ul class="footer-list">
                         <li class="footer-item"> <a class="footer-list-map" href="#"> г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -379,9 +420,7 @@
                             <a class="footer-tel" href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
                         </li>
                     </ul>
-                </address>
-            </div>
-            <div class="social-down">
+                </address></div><div class="social-down">
                 <b class="link-down-title ">присоединяйтесь</b>
                 <ul class="link-down-list">
                     <li>
@@ -411,13 +450,15 @@
                 </ul>
 
             </div>
+            </div>
+            
             
                 <form class="form-footer">
                     <p class="link-down-title">Подпишитесь на рассылку</p>
-                    <div class="footer-box">
+                    <p class="footer-box">
                     <label for="email"></label>
                     <input class="email-input" type="email" name="mail" id="email" placeholder="E-mail">
-
+                                                                                                            </p>
                     <button class="button-submit-footer" type="submit">
 
                         Подписаться
@@ -425,7 +466,7 @@
                             <use href="./images/symbol-modal.svg#icon-icon-send"></use>
                         </svg>
                     </button>
-                    </div>
+                
                 </form>
             
         </div>
