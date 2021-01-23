@@ -18,32 +18,88 @@
 
 <body>
     <header class="header">
-
+    
         <div class="container-top">
-           <!-- <div class="logo-top"> 
-                    <a class="logo-img" href="#"> <span class="color-letter">Web</span>
+            <!-- <div class="logo-top"> 
+                            <a class="logo-img" href="#"> <span class="color-letter">Web</span>
+                                <span class="second-letter">Studio</span></a>
+                    </div>-->
+
+                    <nav class="nav-mobile">
+                        <a class="menu-img" href="#"> <span class="color-letter">Web</span>
                         <span class="second-letter">Studio</span></a>
-            </div>-->
+                        <button class="menu-button " 
+                        aria-expanded="false" 
+                        aria-controls="mobile-menu-container"
+                        data-menu-button>
+                            <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                                <use class="icon-cross" href="./images/header-modal.svg#icon-close_40px-1" ></use>
+                                <use class="icon-menu" href="./images/header-modal.svg#icon-menu_40px" ></use>
+                                </svg>
+                            </nav>
+                        
+                        </button>
+                        <div class="mobile-menu-container" id="mobile-menu-container" data-menu>
+                            <div class="mobile-nav">
+                                <ul class="mobile-list">
+                                    <li class="mobile-list-item">
+                                        <a class="mobile-link par" href="./index.html">
+                                            Студия
+                                        </a>
+                                    </li>
+                                    <li class="mobile-list-item">
+                                        <a class="mobile-link " href="./portfolio.html"> Портфолио</a>
+                                    </li>
+                                    <li class="mobile-list-item">
+                                        <a class="mobile-link" href="">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mobile-adress"><div class="mail">
+                                <a class="header-mail" href="mailto:info@devstudio.com">
+                                    <div class="icon-m">
+                                        <svg class="mail-icon">
+                                            <use href="./images/top-sprite.svg#icon-envelope-1" width="16" height="12"></use>
+                                        </svg>
+                                    </div>info@devstudio.com
+                            
+                                </a>
+                            </div>
+                            <div class="tel">
+                                <a class="header-tel" href="tel:+38 096 111 11 11">
+                            
+                                    <div class="icont"> <svg class="mail-icon-tel">
+                                            <use href="./images/top-sprite.svg#icon-smartphone-1-1"></use>
+                                        </svg></div>
+                                    +38 096 111 11 11
+                                </a>
+                            </div></div>
+                        </div>
+                    </nav>
             <div class="nav-studio">
                 <nav class="navigation">
                     <a class="logo-img" href="#"> <span class="color-letter">Web</span>
                         <span class="second-letter">Studio</span></a>
-                <ul class="navigation-list">
-                    <li class="navigation-list-item">
-                        <a class="navigation-link par" href="">
-                             Студия
-                        </a>
-                    </li>
-                    <li class="navigation-list-item">
-                        <a class="navigation-link " href="./portfolio.html"> Портфолио</a>
-                    </li>
-                    <li class="navigation-list-item">
-                        <a class="navigation-link" href="">
-                            Контакты
-                        </a>
-                    </li>
-                </ul>
-            </nav></div><address class="address-top">
+                    <ul class="navigation-list">
+                        <li class="navigation-list-item">
+                            <a class="navigation-link par" href="./index.html">
+                                Студия
+                            </a>
+                        </li>
+                        <li class="navigation-list-item">
+                            <a class="navigation-link " href="./portfolio.html"> Портфолио</a>
+                        </li>
+                        <li class="navigation-list-item">
+                            <a class="navigation-link" href="">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <address class="address-top">
                 <div class="mail">
                     <a class="header-mail" href="mailto:info@devstudio.com">
                         <div class="icon-m">
@@ -51,12 +107,12 @@
                                 <use href="./images/top-sprite.svg#icon-envelope-1" width="16" height="12"></use>
                             </svg>
                         </div>info@devstudio.com
-            
+    
                     </a>
                 </div>
                 <div class="tel">
                     <a class="header-tel" href="tel:+38 096 111 11 11">
-            
+    
                         <div class="icont"> <svg class="mail-icon-tel">
                                 <use href="./images/top-sprite.svg#icon-smartphone-1-1"></use>
                             </svg></div>
@@ -64,69 +120,67 @@
                     </a>
                 </div>
             </address>
+    
             
-           <svg class="nav-icon" width="20" height="20" data-menu-open>
-                <use href="./images/header-modal.svg#icon-menu_40px"></use>
-            </svg>
-
-            
-             <!--  <div class="menu is-hidden" data-menu>
-            <div class="logo-top"> <a class="logo" href="#">
-                    <img class="logo-img" src="./images/logo.svg" width="145" height="32" class="logo-up" alt="WebStudio" />
-                </a>
-            </div>
-                    <div class="nav-all">
-                        <nav class="navigation">
-                            <ul class="navigation-list">
-                                <li class="navigation-list-item">
-                                    <a class="navigation-link par" href="">
-                                         Студия
-                                    </a>
-                                </li>
-                                <li class="navigation-list-item">
-                                    <a class="navigation-link" href="./portfolio.html"> Портфолио</a>
-                                </li>
-                                <li class="navigation-list-item">
-                                    <a class="navigation-link" href="">
-                                        <a class="par-contacts">Контакты
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
+    
+    
+            <!--  <div class="menu is-hidden" data-menu>
+                    <div class="logo-top"> <a class="logo" href="#">
+                            <img class="logo-img" src="./images/logo.svg" width="145" height="32" class="logo-up" alt="WebStudio" />
+                        </a>
                     </div>
-                    <address class="address-top">
-                        <div class="mail">
-                            <a class="header-mail" href="mailto:info@devstudio.com">
-                                <div class="icon-m">
-                                    <svg class="mail-icon">
-                                        <use href="./images/top-sprite.svg#icon-envelope-1" width="16" height="12"></use>
-                                    </svg>
-                                </div>info@devstudio.com
+                            <div class="nav-all">
+                                <nav class="navigation">
+                                    <ul class="navigation-list">
+                                        <li class="navigation-list-item">
+                                            <a class="navigation-link par" href="">
+                                                 Студия
+                                            </a>
+                                        </li>
+                                        <li class="navigation-list-item">
+                                            <a class="navigation-link" href="./portfolio.html"> Портфолио</a>
+                                        </li>
+                                        <li class="navigation-list-item">
+                                            <a class="navigation-link" href="">
+                                                <a class="par-contacts">Контакты
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <address class="address-top">
+                                <div class="mail">
+                                    <a class="header-mail" href="mailto:info@devstudio.com">
+                                        <div class="icon-m">
+                                            <svg class="mail-icon">
+                                                <use href="./images/top-sprite.svg#icon-envelope-1" width="16" height="12"></use>
+                                            </svg>
+                                        </div>info@devstudio.com
+                            
+                                    </a>
+                                </div>
+                                <div class="tel">
+                                    <a class="header-tel" href="tel:+38 096 111 11 11">
+                            
+                                        <div class="icont"> <svg class="mail-icon-tel">
+                                                <use href="./images/top-sprite.svg#icon-smartphone-1-1"></use>
+                                            </svg></div>
+                                        +38 096 111 11 11
+                                    </a>
+                                </div>
+                            </address>
+                            <button type="button" class="menu-close-button" data-menu-close>
                     
-                            </a>
-                        </div>
-                        <div class="tel">
-                            <a class="header-tel" href="tel:+38 096 111 11 11">
-                    
-                                <div class="icont"> <svg class="mail-icon-tel">
-                                        <use href="./images/top-sprite.svg#icon-smartphone-1-1"></use>
-                                    </svg></div>
-                                +38 096 111 11 11
-                            </a>
-                        </div>
-                    </address>
-                    <button type="button" class="menu-close-button" data-menu-close>
-            
-                        <svg class="menu-icon-close">
-                            <use href="./images/header-modal.svg#icon-close_40px-1"></use>
-                        </svg>
-                    </button>
-                    </div>--> 
-            
-                        
-                </div>
-            
-             </header>
+                                <svg class="menu-icon-close">
+                                    <use href="./images/header-modal.svg#icon-close_40px-1"></use>
+                                </svg>
+                            </button>
+                            </div>-->
+    
+    
+        </div>
+    
+    </header>
     <main>
 
        <section class="hero">
@@ -199,7 +253,22 @@
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-list">
                     <li class="team-list-item">
-                <!-- <img class="team-img" src="./images/ihor.jpg" width="270" height="260" alt="">-->
+                        <picture class="team-picture">
+                            <source srcset="./images/desc.webp/desc ihor.webp 1x, ./images/desc.webp/desc ihor@2x.webp 2x,
+                            ./images/desc.webp/desc ihor@3x.webp 3x" media="(min-width: 1200px)" type="image/webp">
+                            <source srcset="./images/desc.picture/desc ihor.jpg 1x, ./images/desc.picture/desc ihor@2x.jpg 2x,
+                            ./images/desc.picture/desc ihor@3x.jpg 3x" media="(min-width: 1200px)">
+                            <source srcset="./images/tab-webp/tab ihor.webp 1x, ./images/tab-webp/tab ihor@2x.webp 2x, 
+                            ./images/tab-webp/tab ihor@3x.webp 3x" media="(min-width: 786px)" type="image/webp">
+                            <source srcset="./images/tab-picture/tab ihor.jpg 1x, ./images/tab-picture/tab ihor@2x.jpg 2x, 
+                            ./images/tab-picture/tab ihor@3x.jpg 3x" media="(min-width: 786px)">
+                            <source srcset="./images/mobile.webp/moble-ihor.webp 1x, ./images/mobile.webp/moble-ihor@2x.webp 2x,
+                            ./images/mobile.webp/moble-ihor@3x.webp 3x" media="(min-width: 320px)" type="image/webp" >
+                            <source srcset="./images/picture.mobile/moble-ihor.jpg 1x, ./images/picture.mobile/moble-ihor@2x.jpg 2x,
+                            ./images/picture.mobile/moble-ihor@3x.jpg 3x" media="(min-width: 320px)">
+
+                 <img class="team-img" src="./images/picture.mobile/moble-ihor.jpg"  alt="">
+            </picture>
                         <h4 class="team-employee">Игорь Демьяненко</h4>
                         <p class="team-profession">Product Designer</p>
 
@@ -237,7 +306,22 @@
 
                     </li>
                     <li class="team-list-item">
-                <!--      <img class="team-img" src="./images/olga.jpg" width="270" height="260" alt="">-->
+                    <picture class="team-picture">
+                        <source srcset="./images/desc.webp/desc olha.webp 1x, ./images/desc.webp/desc olha@2x.webp 2x,
+                                                ./images/desc.webp/desc olha@3x.webp 3x" media="(min-width: 1200px)" type="image/webp">
+                        <source srcset="./images/desc.picture/desc olha.jpg 1x, ./images/desc.picture/desc olha@2x.jpg 2x,
+                                                ./images/desc.picture/desc olha@3x.jpg 3x" media="(min-width: 1200px)">
+                        <source srcset="./images/tab-webp/tab olha.webp 1x, ./images/tab-webp/tab olha@2x.webp 2x, 
+                                                ./images/tab-webp/tab olha@3x.webp 3x" media="(min-width: 786px)" type="image/webp">
+                        <source srcset="./images/tab-picture/tab olha.jpg 1x, ./images/tab-picture/tab olha@2x.jpg 2x, 
+                                                ./images/tab-picture/tab olha@3x.jpg 3x" media="(min-width: 786px)">
+                        <source srcset="./images/mobile.webp/moble-olha.webp 1x, ./images/mobile.webp/moble-olha@2x.webp 2x,
+                                                ./images/mobile.webp/moble-olha@3x.webp 3x" media="(min-width: 320px)" type="image/webp">
+                        <source srcset="./images/picture.mobile/moble-olha.jpg 1x, ./images/picture.mobile/moble-olha@2x.jpg 2x,
+                                                ./images/picture.mobile/moble-olha@3x.jpg 3x" media="(min-width: 320px)">
+                    
+                        <img class="team-img" src="./images/picture.mobile/moble-olha.jpg" alt="">
+                    </picture>
                         <h4 class="team-employee">Ольга Репина</h4>
                         <p class="team-profession">Frontend Developer</p>
 
@@ -276,7 +360,26 @@
 
                     </li>
                     <li class="team-list-item">
-                    <!-- <img class="team-img" src="./images/nick.jpg" width="270" height="260" alt="">-->
+                    <picture class="team-picture">
+                        <source srcset="./images/desc.webp/desc nick.webp 1x, ./images/desc.webp/desc nick@2x.webp 2x,
+                                                                    ./images/desc.webp/desc nick@3x.webp 3x" media="(min-width: 1200px)"
+                            type="image/webp">
+                        <source srcset="./images/desc.picture/desc nick.jpg 1x, ./images/desc.picture/desc nick@2x.jpg 2x,
+                                                                    ./images/desc.picture/desc nick@3x.jpg 3x" media="(min-width: 1200px)">
+                        <source srcset="./images/tab-webp/tab nick.webp 1x, ./images/tab-webp/tab nick@2x.webp 2x, 
+                                                                    ./images/tab-webp/tab nick@3x.webp 3x" media="(min-width: 786px)"
+                            type="image/webp">
+                        <source srcset="./images/tab-picture/tab nick.jpg 1x, ./images/tab-picture/tab nick@2x.jpg 2x, 
+                                                                    ./images/tab-picture/tab nick@3x.jpg 3x" media="(min-width: 786px)">
+                        <source srcset="./images/mobile.webp/moble-nick.webp 1x, ./images/mobile.webp/moble-nick@2x.webp 2x,
+                                                                    ./images/mobile.webp/moble-nick@3x.webp 3x" media="(min-width: 320px)"
+                            type="image/webp">
+                        <source srcset="./images/picture.mobile/moble-nick.jpg 1x, ./images/picture.mobile/moble-nick@2x.jpg 2x,
+                                                                    ./images/picture.mobile/moble-nick@3x.jpg 3x"
+                            media="(min-width: 320px)">
+                    
+                        <img class="team-img" src="./images/picture.mobile/moble-nick.jpg" alt="">
+                    </picture>
                         <h4 class="team-employee">Николай Тарасов</h4>
                         <p class="team-profession">Marketing</p>
 
@@ -314,7 +417,26 @@
 
                     </li>
                     <li class="team-list-item">
-                     <!--   <img class="team-img" src="./images/michel.jpg" width="270" height="260" alt="">-->
+                    <picture class="team-picture">
+                        <source srcset="./images/desc.webp/desc michel.webp 1x, ./images/desc.webp/desc michel@2x.webp 2x,
+                                                                    ./images/desc.webp/desc michel@3x.webp 3x" media="(min-width: 1200px)"
+                            type="image/webp">
+                        <source srcset="./images/desc.picture/desc michel.jpg 1x, ./images/desc.picture/desc michel@2x.jpg 2x,
+                                                                    ./images/desc.picture/desc michel@3x.jpg 3x" media="(min-width: 1200px)">
+                        <source srcset="./images/tab-webp/tab michel.webp 1x, ./images/tab-webp/tab michel@2x.webp 2x, 
+                                                                    ./images/tab-webp/tab michel@3x.webp 3x" media="(min-width: 786px)"
+                            type="image/webp">
+                        <source srcset="./images/tab-picture/tab michel.jpg 1x, ./images/tab-picture/tab michel@2x.jpg 2x, 
+                                                                    ./images/tab-picture/tab michel@3x.jpg 3x" media="(min-width: 786px)">
+                        <source srcset="./images/mobile.webp/moble-michel.webp 1x, ./images/mobile.webp/moble-michel@2x.webp 2x,
+                                                                    ./images/mobile.webp/moble-michel@3x.webp 3x" media="(min-width: 320px)"
+                            type="image/webp">
+                        <source srcset="./images/picture.mobile/moble-michel.jpg 1x, ./images/picture.mobile/moble-michel@2x.jpg 2x,
+                                                                    ./images/picture.mobile/moble-michel@3x.jpg 3x"
+                            media="(min-width: 320px)">
+                    
+                        <img class="team-img" src="./images/picture.mobile/moble-michel.jpg" alt="">
+                    </picture>
                         <h4 class="team-employee">Михаил Ермаков</h4>
                         <p class="team-profession">UI Designer</p>
                         <ul class="team-sosial-list">
@@ -452,9 +574,9 @@
             </div>
             </div>
             
-            
+            <div class="form-section">
+                <b class="link-down-title">Подпишитесь на рассылку</b>
                 <form class="form-footer">
-                    <p class="link-down-title">Подпишитесь на рассылку</p>
                     <p class="footer-box">
                     <label for="email"></label>
                     <input class="email-input" type="email" name="mail" id="email" placeholder="E-mail">
@@ -468,7 +590,7 @@
                     </button>
                 
                 </form>
-            
+            </div>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>

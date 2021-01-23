@@ -14,11 +14,16 @@
 }
 .form {
   /* outline: 1px solid red;*/
-  width: 448px;
+
   margin-left: auto;
   margin-right: auto;
   padding: 0px;
   padding-top: 40px;
+  @media screen and(min-width: 768px) {
+  }
+  @media screen and(min-width: 1200px) {
+    width: 448px;
+  }
 }
 .form-area {
   position: relative;
@@ -87,9 +92,19 @@
 }
 
 .form-checkbox {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1200px) {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+.check-text {
+  font-size: 12px;
+  @media screen and (max-width: 320px) {
+  }
 }
 .form-checkbox label {
   display: flex;
@@ -119,7 +134,14 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 20px;
+  @media screen and(min-width: 768px) {
+    margin-bottom: 0px;
+  }
+  @media screen and(min-width: 1200px) {
+  }
 }
+
 .modal-checkbox-label::before {
   content: '';
   display: inline-block;
@@ -128,20 +150,38 @@
   border: 2px solid black;
   border-radius: 2px;
   margin-right: 7px;
+  margin-bottom: 20px;
+  @media screen and(min-width: 768px) {
+    margin-bottom: 20px;
+  }
+  @media screen and(min-width: 1200px) {
+    margin-bottom: 0px;
+  }
 }
+
 .modal-checkbpx-input:checked + .modal-checkbox-label::before {
   background-image: url('../images/icon-check.svg');
   background-color: $color-accent;
   border-color: $color-accent;
   background-position: center;
+  margin-bottom: 20px;
+  @media screen and(min-width: 768px) {
+    margin-bottom: 20px;
+  }
+  @media screen and(min-width: 1200px) {
+    margin-bottom: 0px;
+  }
 }
+
 .form-button {
   text-align: center;
 }
+
 .button-submit {
   text-align: center;
   width: 200px;
   height: 50px;
+  margin-top: 20px;
   background-color: $color-accent;
   color: $color-general-second;
   border-radius: 4px;

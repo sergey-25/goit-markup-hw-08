@@ -1,6 +1,10 @@
 .our-clients {
   padding-top: 60px;
   padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .clients-container {
   text-align: center;
@@ -89,27 +93,6 @@
 .clients-item:nth-child(5) {
   margin-bottom: 30px;
 }
-
-/*.clients-link {
-  display: flex;
-  flex-wrap: nowrap;
-  width: 210px;
-  height: 90px;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid#afb1b8;
-  border-radius: 4px;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0s;
-  &:hover,
-  &:focus {
-    border: 1px solid $color-accent;
-    border-radius: 4px;
-  }
-}*/
 
 .clients-icon {
   width: 40px;

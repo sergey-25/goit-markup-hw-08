@@ -21,6 +21,9 @@
     margin-bottom: 60px;
   }
   @media screen and(min-width: 1200px) {
+    margin-bottom: 0px;
+    margin-right: 70px;
+    text-align: left;
   }
 }
 .footer-img {
@@ -85,13 +88,14 @@
   display: inline-block;
   width: 206px;
   height: 80px;
-  text-align: center;
   margin-bottom: 60px;
 
   @media screen and(min-width: 768px) {
     margin-bottom: 60px;
   }
   @media screen and(min-width: 1200px) {
+    text-align: left;
+    margin-bottom: 0px;
   }
 }
 .link-down-title {

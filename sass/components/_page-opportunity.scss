@@ -2,6 +2,11 @@
 
 .opportunity {
   padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .opportunity-list {
@@ -22,11 +27,12 @@
 }
 
 .opportunity-list-item {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   @media screen and (min-width: 768px) {
     margin: 0 auto;
     margin-right: 30px;
     flex-basis: 354px;
+    margin-bottom: 0px;
   }
   @media screen and (min-width: 1200px) {
     margin: 0;

@@ -23,7 +23,58 @@
             <!-- <div class="logo-top"> 
                         <a class="logo-img" href="#"> <span class="color-letter">Web</span>
                             <span class="second-letter">Studio</span></a>
-                </div>-->
+                </div>--><nav class="nav-mobile">
+                    <a class="menu-img" href="#"> <span class="color-letter">Web</span>
+                        <span class="second-letter">Studio</span></a>
+                    <button class="menu-button " data-menu-button>
+                        <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                            <use class="icon-menu " href="./images/header-modal.svg#icon-menu_40px"></use>
+                            <use class="icon-cross " href="./images/header-modal.svg#icon-close_40px-1"></use>
+                
+                
+                        </svg>
+                </nav>
+                
+                </button>
+                <div class="mobile-menu-container " data-menu>
+                    <div class="mobile-nav">
+                        <ul class="mobile-list">
+                            <li class="mobile-list-item">
+                                <a class="mobile-link " href="./index.html">
+                                    Студия
+                                </a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-link par" href="./portfolio.html"> Портфолио</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-link" href="">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mobile-adress"><div class="mail">
+                        <a class="header-mail" href="mailto:info@devstudio.com">
+                            <div class="icon-m">
+                                <svg class="mail-icon">
+                                    <use href="./images/top-sprite.svg#icon-envelope-1" width="16" height="12"></use>
+                                </svg>
+                            </div>info@devstudio.com
+                    
+                        </a>
+                    </div>
+                    <div class="tel">
+                        <a class="header-tel" href="tel:+38 096 111 11 11">
+                    
+                            <div class="icont"> <svg class="mail-icon-tel">
+                                    <use href="./images/top-sprite.svg#icon-smartphone-1-1"></use>
+                                </svg></div>
+                            +38 096 111 11 11
+                        </a>
+                    </div></div>
+                </div>
+                </nav>
             <div class="nav-studio">
                 <nav class="navigation">
                     <a class="logo-img" href="#"> <span class="color-letter">Web</span>
@@ -67,9 +118,7 @@
                 </div>
             </address>
     
-            <svg class="nav-icon" width="20" height="20" data-menu-open>
-                <use href="./images/header-modal.svg#icon-menu_40px"></use>
-            </svg>
+           
     
     
             <!--  <div class="menu is-hidden" data-menu>
@@ -162,7 +211,28 @@
                     <li class="portfolio-list-item">
                         <a class="portfolio-link"href="">
                         <div class="portfilio-img-container">
-                            <img class="portfolio-img" src="./images-portf/imgt.jpg" width="354" height="294" alt="">
+                            <picture class="portfolio-picture">
+                                <source srcset="./images/desc.webp/desc.portf.webp/desc-portf0.webp 1x, 
+                                                            ./images/desc.webp/desc.portf.webp/desc-portf0@2x.webp 2x" media="(min-width=1200px)"
+                                    type="image/webp">
+                                <source srcset="./images/desc-picture/desc-portfolio/desc-portf0.jpg 1x, 
+                                                            ./images/desc-picture/desc-portfolio/desc-portf0@2x.jpg 2x" media="(min-width=1200px)">
+                                <source srcset="./images/tab.webp/tab-portf.webp/tab port0.webp 1x, 
+                                                                        ./images/tab.webp/tab-portf.webp/tab port0@2x.webp 2x"
+                                    media="(min-width=768px)" type="image/webp">
+                                <source srcset="./images/tab-picture/tab-portfolio/tab port0.jpg 1x, 
+                                                                         ./images/tab-picture/tab-portfolio/tab port0.jpg@2x.jpg 2x"
+                                    media="(min-width=768px)">
+                                <source
+                                    srcset="./images/mobile.webp/mobile-port.webp/portf.mob0.webp 1x, 
+                                                                                                        ./images/mobile.webp/mobile-port.webp/portf.mob0.webp@2x.webp 2x"
+                                    media="(min-width=320px)" type="image/webp">
+                                <source
+                                    srcset="./images/picture.mobile/mob.portfolio/portf.mob0.jpg 1x, 
+                                                                                                         ./images/picture.mobile/mob.portfolio/portf.mob0@2x.jpg 2x"
+                                    media="(min-width=320px)">
+                                <img class="portfolio-img" src="./images/desc-picture/desc-portfolio/desc-portf0.jpg" alt="">
+                            </picture>
                             <p class="overlay">Технокряк это современная площадка распространения коронавируса.
                                                  Компании используют эту платформу для цифрового
                                                  шпионажа и атак на защищённые сервера конкурентов.
@@ -175,7 +245,24 @@
                     <li class="portfolio-list-item">
                         <a class="portfolio-link" href="">
                         <div class="portfilio-img-container">
-                            <img class="portfolio-img" src="./images-portf/img2.jpg" width="354" height="294" alt="">
+                            <picture class="portfolio-picture">
+                                <source srcset="./images/desc.webp/desc.portf.webp/desc portf1.webp 1x, 
+                                ./images/desc.webp/desc.portf.webp/desc portf1@2x.webp 2x" media="(min-width=1200px)" type="image/webp">
+                                <source srcset="./images/desc-picture/desc-portfolio/desc portf1.jpg 1x, 
+                                ./images/desc-picture/desc-portfolio/desc portf1@2x.jpg 2x" media="(min-width=1200px)">
+                                <source srcset="./images/tab.webp/tab-portf.webp/tab port1.webp 1x, 
+                                            ./images/tab.webp/tab-portf.webp/tab port1@2x.webp 2x" media="(min-width=768px)"
+                                    type="image/webp">
+                                <source srcset="./images/tab-picture/tab-portfolio/tab port1.jpg 1x, 
+                                             ./images/tab-picture/tab-portfolio/tab port1.jpg@2x.jpg 2x" media="(min-width=768px)">
+                                <source srcset="./images/mobile.webp/mobile-port.webp/portf.mob1.webp 1x, 
+                                                                            ./images/mobile.webp/mobile-port.webp/portf.mob1.webp@2x.webp 2x"
+                                    media="(min-width=320px)" type="image/webp">
+                                <source srcset="./images/picture.mobile/mob.portfolio/portf.mob1.jpg 1x, 
+                                                                             ./images/picture.mobile/mob.portfolio/portf.mob1@2x.jpg 2x"
+                                    media="(min-width=320px)">
+                            <img class="portfolio-img" src="./images/desc.webp/desc.portf.webp/desc portf1.webp"  alt="">
+                            </picture>
                             <p class="overlay">
                             </p></div>
                         <h4 class="portfolio-title">Постер New Orlean vs Golden Star</h4>
@@ -185,7 +272,28 @@
                     <li class="portfolio-list-item">
                         <a class="portfolio-link"href="">
                         <div class="portfilio-img-container">
-                        <img class="portfolio-img" src="./images-portf/img3.jpg" width="354" height="294" alt="">
+                        <picture class="portfolio-picture">
+                            <source srcset="./images/desc.webp/desc.portf.webp/desc portf2.webp 1x, 
+                                                        ./images/desc.webp/desc.portf.webp/desc portf2@2x.webp 2x" media="(min-width=1200px)"
+                                type="image/webp">
+                            <source srcset="./images/desc-picture/desc-portfolio/desc portf2.jpg 1x, 
+                                                        ./images/desc-picture/desc-portfolio/desc portf2@2x.jpg 2x" media="(min-width=1200px)">
+                            <source srcset="./images/tab.webp/tab-portf.webp/tab port2.webp 1x, 
+                                                                    ./images/tab.webp/tab-portf.webp/tab port2@2x.webp 2x"
+                                media="(min-width=768px)" type="image/webp">
+                            <source srcset="./images/tab-picture/tab-portfolio/tab port2.jpg 1x, 
+                                                                     ./images/tab-picture/tab-portfolio/tab port2.jpg@2x.jpg 2x"
+                                media="(min-width=768px)">
+                            <source
+                                srcset="./images/mobile.webp/mobile-port.webp/portf.mob2.webp 1x, 
+                                                                                                    ./images/mobile.webp/mobile-port.webp/portf.mob2.webp@2x.webp 2x"
+                                media="(min-width=320px)" type="image/webp">
+                            <source
+                                srcset="./images/picture.mobile/mob.portfolio/portf.mob2.jpg 1x, 
+                                                                                                     ./images/picture.mobile/mob.portfolio/portf.mob2@2x.jpg 2x"
+                                media="(min-width=320px)">
+                            <img class="portfolio-img" src="./images/desc.webp/desc.portf.webp/desc portf2.webp" alt="">
+                        </picture>
                         <p class="overlay">
                         </p>
                         </div>
@@ -197,7 +305,31 @@
                     <li class="portfolio-list-item">
                         <a class="portfolio-link"href="">
                         <div class="portfilio-img-container">
-                        <img class="portfolio-img" src="./images-portf/img4.jpg" width="354" height="294" alt="">
+                        <picture class="portfolio-picture">
+                            <source srcset="./images/desc.webp/desc.portf.webp/desc portf3.webp 1x, 
+                                                                                ./images/desc.webp/desc.portf.webp/desc portf3@2x.webp 2x"
+                                media="(min-width=1200px)" type="image/webp">
+                            <source srcset="./images/desc-picture/desc-portfolio/desc portf3.jpg 1x, 
+                                                                                ./images/desc-picture/desc-portfolio/desc portf3@2x.jpg 2x"
+                                media="(min-width=1200px)">
+                            <source
+                                srcset="./images/tab.webp/tab-portf.webp/tab port3.webp 1x, 
+                                                                                            ./images/tab.webp/tab-portf.webp/tab port3@2x.webp 2x"
+                                media="(min-width=768px)" type="image/webp">
+                            <source
+                                srcset="./images/tab-picture/tab-portfolio/tab port3.jpg 1x, 
+                                                                                             ./images/tab-picture/tab-portfolio/tab port3.jpg@2x.jpg 2x"
+                                media="(min-width=768px)">
+                            <source
+                                srcset="./images/mobile.webp/mobile-port.webp/portf.mob3.webp 1x, 
+                                                                                                                            ./images/mobile.webp/mobile-port.webp/portf.mob3.webp@2x.webp 2x"
+                                media="(min-width=320px)" type="image/webp">
+                            <source
+                                srcset="./images/picture.mobile/mob.portfolio/portf.mob3.jpg 1x, 
+                                                                                                                             ./images/picture.mobile/mob.portfolio/portf.mob3@2x.jpg 2x"
+                                media="(min-width=320px)">
+                            <img class="portfolio-img" src="./images/desc.webp/desc.portf.webp/desc portf3.webp" alt="">
+                        </picture>
                         <p class="overlay">
                         </p>
                         </div>
@@ -208,7 +340,31 @@
                     <li class="portfolio-list-item">
                         <a class="portfolio-link"href="">
                         <div class="portfilio-img-container">
-                        <img class="portfolio-img" src="./images-portf/img5.jpg" width="354" height="294" alt="">
+                        <picture class="portfolio-picture">
+                            <source srcset="./images/desc.webp/desc.portf.webp/desc portf4.webp 1x, 
+                                                                                ./images/desc.webp/desc.portf.webp/desc portf4@2x.webp 2x"
+                                media="(min-width=1200px)" type="image/webp">
+                            <source srcset="./images/desc-picture/desc-portfolio/desc portf4.jpg 1x, 
+                                                                                ./images/desc-picture/desc-portfolio/desc portf4@2x.jpg 2x"
+                                media="(min-width=1200px)">
+                            <source
+                                srcset="./images/tab.webp/tab-portf.webp/tab port4.webp 1x, 
+                                                                                            ./images/tab.webp/tab-portf.webp/tab port4@2x.webp 2x"
+                                media="(min-width=768px)" type="image/webp">
+                            <source
+                                srcset="./images/tab-picture/tab-portfolio/tab port4.jpg 1x, 
+                                                                                             ./images/tab-picture/tab-portfolio/tab port4.jpg@2x.jpg 2x"
+                                media="(min-width=768px)">
+                            <source
+                                srcset="./images/mobile.webp/mobile-port.webp/portf.mob4.webp 1x, 
+                                                                                                                            ./images/mobile.webp/mobile-port.webp/portf.mob4.webp@2x.webp 2x"
+                                media="(min-width=320px)" type="image/webp">
+                            <source
+                                srcset="./images/picture.mobile/mob.portfolio/portf.mob4.jpg 1x, 
+                                                                                                                             ./images/picture.mobile/mob.portfolio/portf.mob4@2x.jpg 2x"
+                                media="(min-width=320px)">
+                            <img class="portfolio-img" src="./images/desc.webp/desc.portf.webp/desc portf4.webp" alt="">
+                        </picture>
                         <p class="overlay">
                         </p>
                         </div>
@@ -219,7 +375,31 @@
                     <li class="portfolio-list-item">
                         <a class="portfolio-link"href="">
                         <div class="portfilio-img-container">
-                        <img class="portfolio-img" src="./images-portf/img6.jpg" width="354" height="294" alt="">
+                        <picture class="portfolio-picture">
+                            <source srcset="./images/desc.webp/desc.portf.webp/desc portf5.webp 1x, 
+                                                                                ./images/desc.webp/desc.portf.webp/desc portf5@2x.webp 2x"
+                                media="(min-width=1200px)" type="image/webp">
+                            <source srcset="./images/desc-picture/desc-portfolio/desc portf5.jpg 1x, 
+                                                                                ./images/desc-picture/desc-portfolio/desc portf5@2x.jpg 2x"
+                                media="(min-width=1200px)">
+                            <source
+                                srcset="./images/tab.webp/tab-portf.webp/tab port5.webp 1x, 
+                                                                                            ./images/tab.webp/tab-portf.webp/tab port5@2x.webp 2x"
+                                media="(min-width=768px)" type="image/webp">
+                            <source
+                                srcset="./images/tab-picture/tab-portfolio/tab port5.jpg 1x, 
+                                                                                             ./images/tab-picture/tab-portfolio/tab port5.jpg@2x.jpg 2x"
+                                media="(min-width=768px)">
+                            <source
+                                srcset="./images/mobile.webp/mobile-port.webp/portf.mob5.webp 1x, 
+                                                                                                                            ./images/mobile.webp/mobile-port.webp/portf.mob5.webp@2x.webp 2x"
+                                media="(min-width=320px)" type="image/webp">
+                            <source
+                                srcset="./images/picture.mobile/mob.portfolio/portf.mob5.jpg 1x, 
+                                                                                                                             ./images/picture.mobile/mob.portfolio/portf.mob5@2x.jpg 2x"
+                                media="(min-width=320px)">
+                            <img class="portfolio-img" src="./images/desc.webp/desc.portf.webp/desc portf5.webp" alt="">
+                        </picture>
                         <p class="overlay">
                         </p></div>
                         <h4 class="portfolio-title">Inspiration has no Borders</h4>
@@ -230,7 +410,31 @@
                         <li class="portfolio-list-item">
                         <a class="portfolio-link"href="">
                         <div class="portfilio-img-container">
-                        <img class="portfolio-img" src="./images-portf/img7.jpg" width="354" height="294" alt="">
+                        <picture class="portfolio-picture">
+                            <source srcset="./images/desc.webp/desc.portf.webp/desc portf6.webp 1x, 
+                                                                                ./images/desc.webp/desc.portf.webp/desc portf6@2x.webp 2x"
+                                media="(min-width=1200px)" type="image/webp">
+                            <source srcset="./images/desc-picture/desc-portfolio/desc portf6.jpg 1x, 
+                                                                                ./images/desc-picture/desc-portfolio/desc portf6@2x.jpg 2x"
+                                media="(min-width=1200px)">
+                            <source
+                                srcset="./images/tab.webp/tab-portf.webp/tab port6.webp 1x, 
+                                                                                            ./images/tab.webp/tab-portf.webp/tab port6@2x.webp 2x"
+                                media="(min-width=768px)" type="image/webp">
+                            <source
+                                srcset="./images/tab-picture/tab-portfolio/tab port6.jpg 1x, 
+                                                                                             ./images/tab-picture/tab-portfolio/tab port6.jpg@2x.jpg 2x"
+                                media="(min-width=768px)">
+                            <source
+                                srcset="./images/mobile.webp/mobile-port.webp/portf.mob6.webp 1x, 
+                                                                                                                            ./images/mobile.webp/mobile-port.webp/portf.mob6.webp@2x.webp 2x"
+                                media="(min-width=320px)" type="image/webp">
+                            <source
+                                srcset="./images/picture.mobile/mob.portfolio/portf.mob6.jpg 1x, 
+                                                                                                                             ./images/picture.mobile/mob.portfolio/portf.mob6@2x.jpg 2x"
+                                media="(min-width=320px)">
+                            <img class="portfolio-img" src="./images/desc.webp/desc.portf.webp/desc portf6.webp" alt="">
+                        </picture>
                         <p class="overlay">
                         </p></div>
                         <h4 class="portfolio-title">Издание Limited Edition</h4>
@@ -240,7 +444,31 @@
                     <li class="portfolio-list-item">
                         <a class="portfolio-link"href="">
                         <div class="portfilio-img-container">
-                        <img class="portfolio-img" src="./images-portf/img8.jpg" width="354" height="294" alt="">
+                        <picture class="portfolio-picture">
+                            <source srcset="./images/desc.webp/desc.portf.webp/desc portf7.webp 1x, 
+                                                                                ./images/desc.webp/desc.portf.webp/desc portf7@2x.webp 2x"
+                                media="(min-width=1200px)" type="image/webp">
+                            <source srcset="./images/desc-picture/desc-portfolio/desc portf7.jpg 1x, 
+                                                                                ./images/desc-picture/desc-portfolio/desc portf7@2x.jpg 2x"
+                                media="(min-width=1200px)">
+                            <source
+                                srcset="./images/tab.webp/tab-portf.webp/tab port7.webp 1x, 
+                                                                                            ./images/tab.webp/tab-portf.webp/tab port7@2x.webp 2x"
+                                media="(min-width=768px)" type="image/webp">
+                            <source
+                                srcset="./images/tab-picture/tab-portfolio/tab port7.jpg 1x, 
+                                                                                             ./images/tab-picture/tab-portfolio/tab port7.jpg@2x.jpg 2x"
+                                media="(min-width=768px)">
+                            <source
+                                srcset="./images/mobile.webp/mobile-port.webp/portf.mob7.webp 1x, 
+                                                                                                                            ./images/mobile.webp/mobile-port.webp/portf.mob7.webp@2x.webp 2x"
+                                media="(min-width=320px)" type="image/webp">
+                            <source
+                                srcset="./images/picture.mobile/mob.portfolio/portf.mob7.jpg 1x, 
+                                                                                                                             ./images/picture.mobile/mob.portfolio/portf.mob7@2x.jpg 2x"
+                                media="(min-width=320px)">
+                            <img class="portfolio-img" src="./images/desc.webp/desc.portf.webp/desc portf7.webp" alt="">
+                        </picture>
                         <p class="overlay">
                         </p></div>
                         <h4 class="portfolio-title">Проект LAB</h4>
@@ -250,7 +478,31 @@
                     <li class="portfolio-list-item">
                         <a class="portfolio-link"href="">
                         <div class="portfilio-img-container">
-                        <img class="portfolio-img" src="./images-portf/img9.jpg" width="354" height="294" alt="">
+                        <picture class="portfolio-picture">
+                            <source srcset="./images/desc.webp/desc.portf.webp/desc portf8.webp 1x, 
+                                                                                ./images/desc.webp/desc.portf.webp/desc portf8@2x.webp 2x"
+                                media="(min-width=1200px)" type="image/webp">
+                            <source srcset="./images/desc-picture/desc-portfolio/desc portf8.jpg 1x, 
+                                                                                ./images/desc-picture/desc-portfolio/desc portf8@2x.jpg 2x"
+                                media="(min-width=1200px)">
+                            <source
+                                srcset="./images/tab.webp/tab-portf.webp/tab port8.webp 1x, 
+                                                                                            ./images/tab.webp/tab-portf.webp/tab port8@2x.webp 2x"
+                                media="(min-width=768px)" type="image/webp">
+                            <source
+                                srcset="./images/tab-picture/tab-portfolio/tab port8.jpg 1x, 
+                                                                                             ./images/tab-picture/tab-portfolio/tab port8.jpg@2x.jpg 2x"
+                                media="(min-width=768px)">
+                            <source
+                                srcset="./images/mobile.webp/mobile-port.webp/portf.mob8.webp 1x, 
+                                                                                                                            ./images/mobile.webp/mobile-port.webp/portf.mob8.webp@2x.webp 2x"
+                                media="(min-width=320px)" type="image/webp">
+                            <source
+                                srcset="./images/picture.mobile/mob.portfolio/portf.mob8.jpg 1x, 
+                                                                                                                             ./images/picture.mobile/mob.portfolio/portf.mob8@2x.jpg 2x"
+                                media="(min-width=320px)">
+                            <img class="portfolio-img" src="./images/desc.webp/desc.portf.webp/desc portf8.webp" alt="">
+                        </picture>
                         <p class="overlay">
                         </p></div>
                         <h4 class="portfolio-title">Growing Business</h4>
@@ -315,23 +567,23 @@
                 </div>
             </div>
     
+            <div class="form-section">
+                <b class="link-down-title">Подпишитесь на рассылку</b>
+                <form class="form-footer">
+                    <p class="footer-box">
+                        <label for="email"></label>
+                        <input class="email-input" type="email" name="mail" id="email" placeholder="E-mail">
+                    </p>
+                    <button class="button-submit-footer" type="submit">
     
-            <form class="form-footer">
-                <p class="link-down-title">Подпишитесь на рассылку</p>
-                <p class="footer-box">
-                    <label for="email"></label>
-                    <input class="email-input" type="email" name="mail" id="email" placeholder="E-mail">
-                </p>
-                <button class="button-submit-footer" type="submit">
+                        Подписаться
+                        <svg class="button-submit-icon">
+                            <use href="./images/symbol-modal.svg#icon-icon-send"></use>
+                        </svg>
+                    </button>
     
-                    Подписаться
-                    <svg class="button-submit-icon">
-                        <use href="./images/symbol-modal.svg#icon-icon-send"></use>
-                    </svg>
-                </button>
-    
-            </form>
-    
+                </form>
+            </div>
         </div>
     </footer>
     <script src="./js/menu.js"></script>

@@ -1,10 +1,15 @@
 /*works-section*/
 
 .works {
-  @include centeredFlex(flex);
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 66px;
+  display: none;
+  @media screen and(min-width: 768px) {
+  }
+  @media screen and(min-width: 1200px) {
+    @include centeredFlex(flex);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 66px;
+  }
 }
 .works-title {
   font-family: Roboto;
@@ -24,7 +29,6 @@
   @include centeredFlex(flex);
 }
 .works-item {
-  margin: auto;
   position: relative;
   width: 450px;
 }
