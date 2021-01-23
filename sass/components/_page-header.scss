@@ -111,6 +111,9 @@
   }
 }
 
+.navigation-link.par {
+  color: $color-accent;
+}
 .navigation-link.par::after {
   content: '';
   position: absolute;
@@ -118,8 +121,9 @@
   left: 0;
   width: 100%;
   height: 4px;
-
+  display: block;
   border-radius: 2px;
+  color: $color-accent;
   background-color: $color-accent;
   margin-top: 8px;
 
