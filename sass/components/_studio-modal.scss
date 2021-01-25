@@ -1,6 +1,6 @@
 .modal {
   position: relative;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -16,7 +16,7 @@
     max-width: 450px;
   }
   @media screen and (min-width: 550px) and (max-width: 1020px) and (orientation: landscape) {
-    top: 90%;
+    top: 105%;
   }
   @media screen and (min-width: 768px) {
     width: 450px;

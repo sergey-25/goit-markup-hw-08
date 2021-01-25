@@ -72,7 +72,11 @@
   }
 
   @media screen and(min-width: 768px) {
+    width: 768;
     display: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: none;
   }
   @media screen and(min-width: 1200px) {
     display: none;
@@ -84,6 +88,14 @@
 }
 .mobile-list-item {
   margin-bottom: 40px;
+  @media screen and(min-width: 768px) {
+    display: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  @media screen and(min-width: 1200px) {
+    display: none;
+  }
 }
 .mobile-link {
   position: relative;
@@ -114,4 +126,12 @@
   height: 4px;
   border-radius: 2px;
   background-color: $color-accent;
+}
+.mobile-adress {
+  @media screen and(min-width: 768px) {
+    display: none;
+  }
+  @media screen and(min-width: 1200px) {
+    display: none;
+  }
 }
